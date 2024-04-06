@@ -14,17 +14,13 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    Imaginify,
     git,
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    ShopNest
   } from "../assets";
   
   export const navLinks = [
@@ -52,7 +48,7 @@ import {
       icon: mobile,
     },
     {
-      title: "API",
+      title: "Backend Developer",
       icon: backend,
     },
     {
@@ -80,10 +76,22 @@ import {
       icon: reactjs,
     },
     {
+      name: "node JS",
+      icon: nodejs
+    },
+    { 
+      name: "mongoDB",
+      icon: mongodb
+
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
-   
+    {
+      name: "typeScript",
+      icon: typescript
+    },
     {
       name: "Three JS",
       icon: threejs,
@@ -123,7 +131,19 @@ import {
         "Fetching Database,storing to Database",
         "Basics of NextJs"
       ],
-    },
+  },{
+    title: "Node",
+      company_name: "",
+      icon: nodejs,
+      iconBg: "#E6DEDD",
+      date: "",
+      points: [
+        "Learned node and its framework expressjs",
+        "Learned how authentication and authorization work",
+        "Implemented Payment Gateway",
+        "Learned mongoDB and integrated database support"
+      ],
+  },
     {
       title: "Amazon Web Services",
       company_name: "",
@@ -144,7 +164,8 @@ import {
       date: "",
       points: [
         "Learning Data structure and algorithm",
-        "Various algorithm and data structure"
+        "Regularly solves DSA question on Leetcode and gfg",
+        "Have solved 500+ questions on leetcode"
            ],
     },
   ];
@@ -178,6 +199,31 @@ import {
   
   const projects = [
     {
+      name: "Imaginify",
+      description:
+        "Web-based platform that allows you to manipulate images such as generative filling,background removal,color changing,object removing etc.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        },
+      ],
+      image: Imaginify,
+      source_code_link: "https://github.com/avinash-2912/Imaginify",
+    },
+    {
       name: "CryptoMart",
       description:
         "Web-based platform that allows you to see crypto currencies real time details and News,you can also compare different crypto currencies.",
@@ -198,7 +244,27 @@ import {
       image: CryptoMart,
       source_code_link: "https://cryptoomartt.netlify.app/",
     },
-   
+    {
+      name: "ShopNest",
+      description:
+        "It is an E-commerce website that allow user to buy various products,placer order and do payment",
+      tags: [
+        {
+          name: "nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:ShopNest,
+      source_code_link: "https://github.com/avinash-2912/shopNest",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
