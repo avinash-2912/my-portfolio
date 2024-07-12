@@ -20,7 +20,9 @@ import {
     docker,
     meta,
     threejs,
-    ShopNest
+    Plura,
+    ShopNest,
+    RoyalEstate
   } from "../assets";
   
   export const navLinks = [
@@ -198,6 +200,72 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Plura",
+      description:
+        "A white labelled SaaS platform with Intuitive Dashboard,Agency management and Website Builder",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ShadcnUI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Clerk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Plura,
+      source_code_link: "https://github.com/avinash-2912/Plura",
+    },
+    {
+      name: "RoyalEstate",
+      description:
+        "A RealEstate Web-Application which provide listing of Property for buying,renting purpose,location on map and with Real-time chat facility",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Socket.io",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: RoyalEstate,
+      source_code_link: "https://github.com/avinash-2912/RoyalEstate",
+    },
     {
       name: "Imaginify",
       description:
